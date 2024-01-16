@@ -2,7 +2,7 @@
 <extension id="multiuploadfield" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Multi Upload Field</name>
 	<description>Allows multiple files to be uploaded to the same field.</description>
-	<repo type="github">https://github.com/symphonists/multiuploadfield</repo>
+	<repo type="github">https://github.com/animaux/multiuploadfield</repo>
 	<types>
 		<type>Field Types</type>
 	</types>
@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.6.3" date="2024-01-16" min="2.7.10">
+			- PHP8 Fixes, may require PHP7+
+		</release>
 		<release version="1.6.2" date="2018-05-09" min="2.6.0" max="2.x.x">
 			- [#36](https://github.com/symphonists/multiuploadfield/issues/36) Fixes for meta data and empty files
 		</release>

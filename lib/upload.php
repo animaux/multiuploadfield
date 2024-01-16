@@ -17,6 +17,10 @@
         exit;
     }
     else {
+        $_REQUEST['field-id'] = $_REQUEST['field-id'] ?? null;
+        $_REQUEST['entry-id'] = $_REQUEST['entry-id'] ?? null;
+        $_REQUEST['position'] = $_REQUEST['position'] ?? null;
+        
         $field_id = (int)$_REQUEST['field-id'];
         $entry_id = (int)$_REQUEST['entry-id'];
         $position = (int)$_REQUEST['position'];
